@@ -1,12 +1,11 @@
 import React from "react";
 import { AiTwotoneAppstore } from "react-icons/ai";
 import { MdOutlineFlipCameraIos } from "react-icons/md";
-import { FaCode } from "react-icons/fa";
 import "../Components/Global.css";
-import project1 from "../Components/SocialLinks/e commerce ss.png"
-import project2 from "../Components/SocialLinks/portfolio project ss.png"
-import project3 from "../Components/SocialLinks/text analyzer ss.png"
 
+import project1 from "../Components/SocialLinks/blog-site.png"
+import project2 from "../Components/SocialLinks/portfolio.png"
+import project3 from "../Components/SocialLinks/weather-app.png"
 
 const Projects = ({bgcolor,darkmode}) => {
   return (
@@ -16,7 +15,7 @@ const Projects = ({bgcolor,darkmode}) => {
           <h1 className={`text-3xl font-bold ${bgcolor==="white" ? "text-black" :"text-white"}`}>Projects</h1>
 
           <div className="flex gap-5 flex-wrap my-5">
-          <a href="https://amazing-toffee-71729d.netlify.app">
+          <a href="https://rajeevblog.netlify.app/">
             <div
               className="ui-ux-design w-80 flex flex-col gap-3 p-5 rounded-lg"
               style={{background:`${bgcolor==="white" ? "#FFF4F4" :"black"}`,  border:`${bgcolor==="white" ? "none" :"1px solid #A6A6A6"}`}}
@@ -25,14 +24,14 @@ const Projects = ({bgcolor,darkmode}) => {
                 src={project1}
                 className="rounded-lg transition delay-150"
               />
-              <div>
+              <div> 
 
-                <h1 className={`text-md font-bold ${bgcolor==="white" ? "text-black" :"text-white"}`}>E-commerce Clothing Website (Tailwind,Reactjs,Firebase)</h1>
+                <h1 className={`text-md font-bold ${bgcolor==="white" ? "text-black" :"text-white"}`}>Blog Website (Tailwind Css, Material UI, javascript, Reactjs, firebase authentication, mongodb, node.js)</h1>
               </div>
             </div>
             </a>
 
-            <a href="https://amazing-toffee-71729d.netlify.app">
+            <a href="#">
             <div
               className="ui-ux-design w-80 flex flex-col gap-3 p-5 rounded-lg"
               style={{background:`${bgcolor==="white" ? "#EEF5FA" :"black"}`,  border:`${bgcolor==="white" ? "none" :"1px solid #A6A6A6"}`}}
@@ -47,7 +46,7 @@ const Projects = ({bgcolor,darkmode}) => {
               </div>
             </div>
             </a>
-            <a href="https://amazing-toffee-71729d.netlify.app">
+            <a href="https://mausam-jano.netlify.app/">
             <div
               className="ui-ux-design w-80 flex flex-col gap-3 p-5 rounded-lg"
               style={{background:`${bgcolor==="white" ? "#FFF4F4" :"black"}`,  border:`${bgcolor==="white" ? "none" :"1px solid #A6A6A6"}`}}
@@ -58,7 +57,7 @@ const Projects = ({bgcolor,darkmode}) => {
               />
               <div>
 
-                <h1 className={`text-md font-bold ${bgcolor==="white" ? "text-black" :"text-white"}`}>Text Data Handeling (Bootstrap,javascript,Reactjs)</h1>
+                <h1 className={`text-md font-bold ${bgcolor==="white" ? "text-black" :"text-white"}`}>Weather Website (Tailwind,Reactjs, OpenWeatherMap Api)</h1>
               </div>
             </div>
             </a>

@@ -16,6 +16,7 @@ function ContactForm({bgcolor, darkmode}) {
         id="name"
         type="text" 
         name="name"
+        required
       />
 
       <label className='mt-2'  htmlFor="email">
@@ -25,6 +26,7 @@ function ContactForm({bgcolor, darkmode}) {
         id="email"
         type="email" 
         name="email"
+        required
       />
       <ValidationError 
         prefix="Email" 
@@ -38,6 +40,7 @@ function ContactForm({bgcolor, darkmode}) {
       <textarea className='p-3 mt-2 rounded-lg'
         id="message"
         name="message"
+        required
       />
       <ValidationError 
         prefix="Message" 
